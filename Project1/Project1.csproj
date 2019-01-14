@@ -44,5 +44,11 @@
     <Compile Include="Project1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SharedProject\SharedProject.csproj">
+      <Project>{ea4a67eb-8d34-4f8a-adaa-b79e6d473ada}</Project>
+      <Name>SharedProject</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
